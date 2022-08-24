@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 
-@implementation
+@implementation MyMain
 
 - (void)hello {
   NSLog(@"hello world");
