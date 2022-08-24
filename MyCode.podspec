@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "MyCode"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of MyCode."
+  spec.name         = "MyLXFCode"
+  spec.version      = "0.0.2"
+  spec.summary      = "This is a Lxf private code"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-              iOS开发描述
+              just a play for cocoapods, not for the production time
                    DESC
 
   spec.homepage     = "https://github.com/lixufeng1992/MyPrivateCode"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:lixufeng1992/MyPrivateCode.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/lixufeng1992/MyPrivateCode.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
