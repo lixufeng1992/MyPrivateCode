@@ -1,4 +1,5 @@
-@interface MyMain
+#import <Foundation/Foundation.h>
+@interface MyMain : NSObject
 
 - (void)hello;
 
