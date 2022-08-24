@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyLXFCode"
-  spec.version      = "1.0.2"
+  spec.version      = "1.1.0"
   spec.summary      = "This is a play"
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "AFNetworking"
 
 end
